@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+    <libraryInfo home="/mnt/Apps/STS4/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_17.0.5.v20221102-0933" version="17.0.5"/>
+    <libraryInfo home="/usr/java/jdk-19" version="19.0.1"/>
+    <libraryInfo home="/mnt/Apps/STS4/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_17.0.5.v20221102-0933/jre" version="17.0.5"/>
+    <libraryInfo home="/usr/lib/jvm/jdk-19-oracle-x64" version="19.0.1"/>
+    <libraryInfo home="/usr/lib/jvm/jdk-19-oracle-x64/bin" version="19.0.1"/>
+    <libraryInfo home="/usr/java/latest" version="21.0.1"/>
+    <libraryInfo home="/usr/java/jdk-20" version="20.0.2"/>
+    <libraryInfo home="/usr/java/jdk-19/bin" version="19.0.1"/>
+    <libraryInfo home="/usr/lib/jvm/jdk-21-oracle-x64" version="21.0.1"/>
+    <libraryInfo home="/usr/lib/jvm/jdk-20-oracle-x64" version="20.0.2"/>
+</libraryInfos>

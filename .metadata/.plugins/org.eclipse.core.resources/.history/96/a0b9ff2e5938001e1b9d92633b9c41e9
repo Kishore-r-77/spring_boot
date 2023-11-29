@@ -1,0 +1,5 @@
+package com.organisation.repository;
+
+public interface CompanyRepository {
+
+}

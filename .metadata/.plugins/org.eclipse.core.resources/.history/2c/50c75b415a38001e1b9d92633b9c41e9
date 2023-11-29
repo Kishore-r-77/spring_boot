@@ -1,0 +1,5 @@
+package com.organisation.serviceimpl;
+
+public class CompanyServiceImpl {
+
+}

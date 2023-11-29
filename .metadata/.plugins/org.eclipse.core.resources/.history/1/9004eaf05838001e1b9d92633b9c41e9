@@ -1,0 +1,5 @@
+package com.organisation.entity;
+
+public class Company {
+
+}

@@ -1,0 +1,15 @@
+package practice;
+
+import java.util.function.Function;
+
+class Practice {
+
+	public static void main(String[] args) {
+		
+		Function<Integer, Integer> a = (n1)->n1+n1;
+		
+		a.apply(7);
+		
+		
+	}
+}

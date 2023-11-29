@@ -1,0 +1,14 @@
+package practice;
+
+class Practice {
+
+	public static void main(String[] args) {
+		int a[]=new int[5];
+		int b[]=a;
+		
+		a[0]=7;
+		for(int nums: b) {
+			System.out.println(nums);
+		}
+	}
+}

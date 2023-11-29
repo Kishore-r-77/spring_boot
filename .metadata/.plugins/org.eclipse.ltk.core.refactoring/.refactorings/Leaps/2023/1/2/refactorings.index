@@ -1,0 +1,37 @@
+1673163538161	Delete element
+1673163565893	Delete element
+1673163604521	Move compilation unit
+1673163712474	Delete element
+1673165862070	Extract constant 'PATCH'
+1673165886335	Extract constant 'PUT'
+1673165982430	Extract constant 'GET'
+1673166127258	Extract constant 'DELETE'
+1673166154984	Extract constant 'POST'
+1673166285340	Rename type 'RequestMethods'
+1673168771960	Delete element
+1673168978575	Extract local variable 'listofAddressDto'
+1673189708219	Extract constant 'DEFAULT_PAGE_NUMBER'
+1673189754469	Extract constant 'DEFAULT_PAGE_SIZE'
+1673189785174	Extract constant 'DEFAULT_SORT_BY'
+1673189800201	Extract constant 'DEFAULT_SORT_DIRECTION'
+1673190396778	Extract local variable 'address'
+1673191594011	Extract local variable 'address'
+1673191618824	Extract local variable 'address'
+1673191808577	Extract local variable 'softdelete'
+1673192000772	Extract local variable 'harddelete'
+1673192383102	Extract local variable 'globalSearch'
+1673680591964	Extract local variable 'entity'
+1673681229818	Extract local variable 'dto'
+1673681361725	Extract local variable 'entity'
+1673682250163	Move compilation unit
+1673687289676	Rename type 'DeathClaimRepository'
+1673687312738	Rename type 'DeathClaimDto'
+1673687335825	Rename type 'DeathClaimResponse'
+1673688294775	Rename type 'DeathClaimClientDetailsImpl'
+1673688648655	Rename type 'DeathClaimCoverDetails'
+1673699994284	Rename type 'DeathClaimCoverTablePas'
+1673702026130	Rename type 'DeathClaimLeapCoverTable'
+1673702141929	Rename type 'DeathClaimLeapCoverTable'
+1673702951597	Rename type 'DeathClaimLeapCoverTable'
+1673710283857	Rename type 'DeathClaimPolicyDetailsDto'
+1673710764800	Rename type 'DeathClaimPolicyDetailsRespository'

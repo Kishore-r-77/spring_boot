@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+    <booleanAttribute key="org.eclipse.debug.core.ATTR_FORCE_SYSTEM_CONSOLE_ENCODING" value="false"/>
+    <mapAttribute key="org.eclipse.debug.core.environmentVariables">
+        <mapEntry key="TENANT_CODE" value="trialzone6"/>
+        <mapEntry key="insuremo_access_token" value="Bearer eBaoCCVbhVEN_XYPF7RHyZBQJ4eWSYtw"/>
+        <mapEntry key="insuremo_gw_url" value="https://sandbox-2-sg-gw.insuremo.com"/>
+        <mapEntry key="spring.profiles.active" value="local"/>
+    </mapAttribute>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_ATTR_USE_ARGFILE" value="false"/>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_EXCLUDE_TEST_CODE" value="true"/>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_SHOW_CODEDETAILS_IN_EXCEPTION_MESSAGES" value="true"/>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_CLASSPATH_ONLY_JAR" value="false"/>
+    <stringAttribute key="org.eclipse.jdt.launching.JRE_CONTAINER" value="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-19/"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="java_practice.Practice"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MODULE_NAME" value="Java"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Java"/>
+</launchConfiguration>

@@ -1,0 +1,6 @@
+1674655108489	Extract local variable 'authorities'
+1674657659766	Extract local variable 'token'
+1674657966440	Extract local variable 'username'
+1674658717401	Extract local variable 'token'
+1674660696923	Extract local variable 'rolesOfUser'
+1674661041877	Extract local variable 'token'

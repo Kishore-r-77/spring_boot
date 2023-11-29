@@ -1,0 +1,23 @@
+1673850012117	Rename type 'FlcClientDetailsDto'
+1673855236605	Move compilation unit
+1673855778098	Move compilation unit
+1673871230821	Rename type 'FlcTransactionDetailsRespository'
+1673873004171	Delete element
+1673875009621	Rename type 'GsvFactor'
+1673875744494	Rename type 'LeapNav'
+1673876389181	Move compilation unit
+1673888919377	Rename type 'Service'
+1673939618988	Delete element
+1673974545184	Rename type 'SurrenderLeapFundDetails'
+1673977280239	Rename type 'SurrenderTransactionPasRespository'
+1674139533226	Extract local variable 'user'
+1674139710127	Extract local variable 'authorities'
+1674194959822	Delete element
+1674195561079	Extract local variable 'authentication'
+1674197269535	Move compilation unit
+1674197278897	Delete element
+1674198111026	Rename type 'LeapApiException'
+1674223022609	Delete element
+1674224404724	Extract local variable 'claims'
+1674226706806	Extract local variable 'userDetails'
+1674229090142	Extract local variable 'user'

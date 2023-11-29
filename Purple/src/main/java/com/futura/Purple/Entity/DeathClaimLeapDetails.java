@@ -1,0 +1,99 @@
+package com.futura.Purple.Entity;
+
+import java.time.LocalDateTime;
+
+import javax.persistence.CascadeType;
+import javax.persistence.Entity;
+import javax.persistence.FetchType;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.OneToOne;
+
+import org.hibernate.annotations.CreationTimestamp;
+import org.hibernate.annotations.UpdateTimestamp;
+
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+import lombok.Data;
+
+@Entity
+@Data
+public class DeathClaimLeapDetails {
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long id;
+	
+	private Long companyId;
+	@OneToOne(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+	@JoinColumn(name = "companyId", updatable = false, insertable = false)
+	private Company company;
+	
+	private Long policyNo;
+	private Long transNo;
+	private String uinNumber;
+	private Long clientId;
+	private String contractType;
+	private String productType;
+	private String policyStatus;
+	private String fup;
+	private Double totalPremium;
+	private Double basicSa;
+	private Double additionalSa;
+	private Double inbuiltRiderSa;
+	private Double reversionaryBonus;
+	private Double interimBonus;
+	private Double guranteedAddition;
+	private Double loyaltyAddtion;
+	private Double otherRiderBenefit;
+	private Double terminalBonus;
+	private Double totalBonus;
+	private Double annuityRefund;
+	private Double fundValue;
+	private String effectiveDate;
+	private Double totalDeathClaim;
+	private Double policyDeposit;
+	private Double penalInterest;
+	private Double grossPayable;
+	private Double termPremRecov;
+	private Double interestOnPremium;
+	private Double gstOnPremium;
+	private Double cdaCharges;
+	private Double otherCharges;
+	private Double policyLoan;
+	private Double policyLoanInterest;
+	private Double moneybackPaid;
+	private Double annuityPaid;
+	private Double mortChargesRefund;
+	private Double adminFeeRefund;
+	private Double guranteedAddCharges;
+	private Double tds;
+	private Double totalRecovery;
+	private Double netPayable;
+	private String leapFlag;
+	private String leapRemarks;
+	private String qcApprovalFlag;
+	private String qcApprovalRemark;
+	private String qcApprovalDate;
+	private Long approvalQcUserId;
+	private String pasUpdateFlag;
+	
+	@JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
+	@CreationTimestamp
+	private LocalDateTime createdDate;
+	@JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
+	private Long createdBy;
+
+	@JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
+	@UpdateTimestamp
+	private LocalDateTime modifiedDate;
+
+	@JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
+	private Long modifiedBy;
+	@JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
+	private int validFlag;
+	
+
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<dirs>
+    <entry loc="/mnt/Apps/STS4/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_17.0.5.v20221102-0933" stamp="1671556392000"/>
+    <entry loc="/usr/java/jdk-19" stamp="1671555320082"/>
+    <entry loc="/mnt/Apps/STS4/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_17.0.5.v20221102-0933/jre" stamp="1673672271000"/>
+    <entry loc="/usr/lib/jvm/jdk-19-oracle-x64" stamp="1671555320082"/>
+    <entry loc="/usr/lib/jvm/jdk-19-oracle-x64/bin" stamp="1671555320074"/>
+    <entry loc="/usr/java/latest" stamp="1697982412146"/>
+    <entry loc="/usr/java/jdk-20" stamp="1691625840613"/>
+    <entry loc="/usr/java/jdk-19/bin" stamp="1671555320074"/>
+    <entry loc="/usr/lib/jvm/jdk-21-oracle-x64" stamp="1697982412146"/>
+    <entry loc="/usr/lib/jvm/jdk-20-oracle-x64" stamp="1691625840613"/>
+</dirs>

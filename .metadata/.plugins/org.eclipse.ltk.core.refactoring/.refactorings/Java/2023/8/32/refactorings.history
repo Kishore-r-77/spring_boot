@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract local variable &apos;result&apos; from expression &apos;name.andThen(name2).apply(7)&apos;&#x0A;- Original project: &apos;Java&apos;&#x0A;- Variable name: &apos;result&apos;&#x0A;- Destination method: &apos;java_practice.Practice.main(...)&apos;&#x0A;- Variable expression: &apos;name.andThen(name2).apply(7)&apos;&#x0A;- Replace occurrences of expression with variable" description="Extract local variable &apos;result&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/&lt;java_practice{Practice.java" name="result" replace="true" selection="261 28" stamp="1691559005657" varType="false" version="1.0"/>
+</session>
