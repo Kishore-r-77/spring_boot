@@ -1,0 +1,5 @@
+package com.futurainstech.iseriesapi.repository.as400;
+
+public interface SlckpfRepository {
+
+}

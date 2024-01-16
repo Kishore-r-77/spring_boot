@@ -1,0 +1,18 @@
+package practice;
+
+class Practice {
+
+	public static void main(String[] args) {
+	
+		int start=1,end=10;
+		int nonOverFlow=start + (end / 2);
+		int overFlow = start + ((end - start) / 2);
+		System.out.println(nonOverFlow);
+		System.out.println(overFlow);
+		
+		
+	}
+	
+	
+
+}

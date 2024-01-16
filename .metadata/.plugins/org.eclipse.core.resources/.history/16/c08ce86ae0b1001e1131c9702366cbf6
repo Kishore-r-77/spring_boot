@@ -1,0 +1,9 @@
+package com.futurainstech.iseriesapi.repository.as400;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.futurainstech.iseriesapi.entities.as400.SLCKPF;
+
+public interface SlckpfRepository extends JpaRepository<SLCKPF, String>{
+
+}

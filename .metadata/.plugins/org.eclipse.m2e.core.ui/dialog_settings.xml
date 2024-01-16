@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="/mnt/Projects/officeProjects/backend/iseriesapi"/>
+			<item value="/mnt/Projects/officeProjects/iseriesapi"/>
 			<item value="/mnt/Projects/SpringBoot/springboot-microservices/department"/>
 			<item value="/mnt/Projects/SpringBoot/springboot-microservices/configserver"/>
 			<item value="/mnt/Projects/SpringBoot/springboot-microservices/config-server"/>

@@ -1,0 +1,4 @@
+1705127924067	Extract local variable 'findAll'
+1705128075516	Extract local variable 'saveRepsonse'
+1705128895370	Extract local variable 'findSlckpfById'
+1705129680215	Extract local variable 'findall'

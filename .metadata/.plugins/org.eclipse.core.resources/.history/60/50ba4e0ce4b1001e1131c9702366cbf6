@@ -1,0 +1,48 @@
+package com.futurainstech.iseriesapi.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.futurainstech.iseriesapi.entities.as400.SLCKPF;
+import com.futurainstech.iseriesapi.repository.as400.SlckpfRepository;
+
+@Service
+public class SlckpfService {
+
+	@Autowired
+	private SlckpfRepository slckpfRepository;
+
+	public List<SLCKPF> getAll() {
+		List<SLCKPF> getAllResponse = slckpfRepository.findAll();
+		return getAllResponse;
+	}
+
+	public SLCKPF createSlckpf(SLCKPF slckpf) {
+		SLCKPF saveRepsonse = slckpfRepository.save(slckpf);
+		return saveRepsonse;
+	}
+
+	public SLCKPF modiSlckpf(String prefix, String company, String entity, SLCKPF slckpf1) {
+		SLCKPF slckpf2 = slckpfRepository.findSlckpfById(prefix, company, entity);
+		slckpf2.setPrefix(slckpf1.getPrefix());
+		slckpf2.setEntity(slckpf1.getEntity());
+		slckpf2.setCompany(slckpf1.getCompany());
+		slckpf2.setLcksts(slckpf1.getLcksts());
+		slckpf2.setProctrancd(slckpf1.getProctrancd());
+		slckpf2.setUser(slckpf1.getUser());
+		slckpf2.setTermid(slckpf1.getTermid());
+		slckpf2.setTrandate(slckpf1.getTrandate());
+		slckpf2.setTrantime(slckpf1.getTrantime());
+		slckpf2.setSysjob(slckpf1.getSysjob());
+		slckpf2.setSysnbr(slckpf1.getSysnbr());
+		slckpf2.setSysuser(slckpf1.getSysuser());
+		slckpf2.setUserprofile(slckpf1.getUserprofile());
+		slckpf2.setJobname(slckpf1.getJobname());
+		slckpf2.setDatime(slckpf1.getDatime());
+		slckpfRepository.save(slckpf2);
+		return slckpf2;
+	}
+
+}

@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+/mnt/Projects/SpringBoot/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+3971071161.index
+44386770.index
+285471769.index
+1200702321.index
+2570480404.index
+740613450.index

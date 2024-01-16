@@ -1,0 +1,19 @@
+package practice;
+
+class Practice {
+
+	public static void main(String[] args) {
+		System.out.println(fibonacciSeries(6));
+		
+	}
+	
+	static long fibonacciSeries(int n) {
+		if(n<=1) {
+			System.out.println(n);
+			return n;
+		}
+		System.out.println(fibonacciSeries(n-1)+fibonacciSeries(n-2));
+		return fibonacciSeries(n-1)+fibonacciSeries(n-2);
+	}
+
+}

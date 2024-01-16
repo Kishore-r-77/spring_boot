@@ -1,0 +1,16 @@
+1703305457143	Delete element
+1703306299663	Rename package 'com.futuainstech.iseriesapi'
+1703306315509	Rename package 'com.futuainstech.iseriesapi.config.application'
+1703306326675	Rename package 'com.futuainstech.iseriesapi.config.datasource'
+1703306336778	Rename package 'com.futuainstech.iseriesapi.controller'
+1703306347944	Rename package 'com.futuainstech.iseriesapi.entities.as400'
+1703306358602	Rename package 'com.futuainstech.iseriesapi.entities.mysql'
+1703306369682	Rename package 'com.futuainstech.iseriesapi.message.formbeans'
+1703306378698	Rename package 'com.futuainstech.iseriesapi.message.response'
+1703306388502	Rename package 'com.futuainstech.iseriesapi.repository.as400'
+1703306400371	Rename package 'com.futuainstech.iseriesapi.repository.mysql'
+1703306410352	Rename package 'com.futuainstech.iseriesapi.security'
+1703306420837	Rename package 'com.futuainstech.iseriesapi.security.jwt'
+1703306435970	Rename package 'com.futuainstech.iseriesapi.service'
+1703306711671	Delete element
+1703307083540	Delete element

@@ -1,4 +1,4 @@
-GitRepositoriesView.GitDirectories=/mnt/Projects/Java/.git\:/mnt/Projects/SpringBoot/trialzone6-appframework-bff-04/.git\:/mnt/Projects/SpringBoot/Purple/.git\:/mnt/Projects/SpringBoot/springboot-microservices/.git\:/mnt/Projects/SpringBoot/Leaps/.git\:/mnt/Projects/ebao/trialzone6-appframework-bff-04/.git\:
-GitRepositoriesView.GitDirectories.relative=/mnt/Projects/Java/.git\:trialzone6-appframework-bff-04/.git\:Purple/.git\:springboot-microservices/.git\:Leaps/.git\:/mnt/Projects/ebao/trialzone6-appframework-bff-04/.git\:
+GitRepositoriesView.GitDirectories=/mnt/Projects/Java/.git\:/mnt/Projects/SpringBoot/trialzone6-appframework-bff-04/.git\:/mnt/Projects/SpringBoot/Purple/.git\:/mnt/Projects/officeProjects/iseriesapi/.git\:/mnt/Projects/officeProjects/backend/iseriesapi/.git\:/mnt/Projects/SpringBoot/springboot-microservices/.git\:/mnt/Projects/SpringBoot/Leaps/.git\:/mnt/Projects/ebao/trialzone6-appframework-bff-04/.git\:
+GitRepositoriesView.GitDirectories.relative=/mnt/Projects/Java/.git\:trialzone6-appframework-bff-04/.git\:Purple/.git\:/mnt/Projects/officeProjects/iseriesapi/.git\:/mnt/Projects/officeProjects/backend/iseriesapi/.git\:springboot-microservices/.git\:Leaps/.git\:/mnt/Projects/ebao/trialzone6-appframework-bff-04/.git\:
 core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1

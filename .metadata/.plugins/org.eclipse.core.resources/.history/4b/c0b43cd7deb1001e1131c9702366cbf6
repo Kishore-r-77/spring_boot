@@ -1,0 +1,22 @@
+package com.futurainstech.iseriesapi.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.futurainstech.iseriesapi.entities.as400.SLCKPF;
+import com.futurainstech.iseriesapi.repository.as400.SlckpfRepository;
+
+@Service
+public class SlckpfService {
+	
+	@Autowired
+	private SlckpfRepository slckpfRepository;
+	
+	public List<SLCKPF> getAll(){
+		List<SLCKPF> getAllResponse = slckpfRepository.findAll();
+		return getAllResponse;
+	}
+
+}
